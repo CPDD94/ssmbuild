@@ -11,6 +11,8 @@
         <package name="com.example.pojo"/>
     </typeAliases>
 
-
+    <mappers>
+        <mapper class="com.example.dao.BookMapper"/>
+    </mappers>
 
 </configuration>
